@@ -9,7 +9,8 @@ let cName = document.getElementById('name'),
 
 search.addEventListener('keyup', (e) => {
     let countryName = e.target.value
-    if (countryName.length >= 2) {
+    if (countryName.length >= 3) {
+        console.log('sddd')
         fetchCountry(countryName)
     }
 })
